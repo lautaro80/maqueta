@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LV STORE</title>
+    <style>
+        /* Estilos generales */
+        body { font-family: sans-serif; background-color: #f4f4f4; margin: 0; padding: 20px; }
+        h1 { text-align: center; color: #333; }
+        
+        /* Contenedor del catálogo */
+        .catalogo-container { max-width: 600px; margin: auto; background: white; padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        
+        /* Tabla de productos */
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th { background-color: #007bff; color: white; padding: 10px; text-align: left; }
+        td { border-bottom: 1px solid #ddd; padding: 12px 8px; vertical-align: middle; }
+        
+        /* Fotos de los productos */
+        .img-producto { width: 60px; height: 60px; object-fit: cover; border-radius: 5px; background: #eee; }
+        
+        /* Precios y nombres */
+        .nombre { font-weight: bold; display: block; }
+        .precio { color: #28a745; font-weight: bold; }
+        
+        /* Botón de pedido */
+        .btn-pedido { display: inline-block; background-color: #25d366; color: white; padding: 5px 10px; text-decoration: none; border-radius: 5px; font-size: 0.8em; }
+    </style>
+</head>
+<body>
+
+    <h1>Mi Catálogo</h1>
+
+    <div class="catalogo-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Foto</th>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="short-messi.jpg.png" alt="Medias" class="img-producto"></td>
+                    <td>
+                        <span class="nombre">Pack x3 Medias Deportivas</span>
+                        <small>Talle único - Algodón</small>
+                    </td>
+                    <td>
+                        <span class="precio">$2500</span>
+                        <br>
+                        <a href="https://wa.me/3865258724" class="btn-pedido">Pedir</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="remera-messi.jpg.png" alt="Short" class="img-producto"></td>
+                    <td>
+                        <span class="nombre">Short de Entrenamiento</span>
+                        <small>Talles: S al XL - DryFit</small>
+                    </td>
+                    <td>
+                        <span class="precio">$8000</span>
+                        <br>
+                        <a href="https://wa.me/3865258724" class="btn-pedido">Pedir</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
